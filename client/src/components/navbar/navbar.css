@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.492);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+  }
+  
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-center li {
+    margin: 0 10px;
+  }
+  
+  .navbar-center li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fa-sign-out:before {
+    content: "\f2f5";
+    font-family: "FontAwesome";
+  }
+  

@@ -1,0 +1,71 @@
+body {
+    background-image: url('../../../assets/images/bakground.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.718);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+    
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Adjust the margin of the input element for even spacing */
+  input[type="text"], input[type="password"] {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
